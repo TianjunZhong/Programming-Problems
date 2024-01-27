@@ -1,0 +1,2 @@
+O(2^k * n * k) = 2^10 * 1000 * 10 ~ 10000000 = 10^7 is within constraint
+anything below 10^8 should be fine.

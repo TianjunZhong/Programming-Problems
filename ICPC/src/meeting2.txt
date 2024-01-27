@@ -1,0 +1,37 @@
+Bitwise operations
+
+
+Left and right bit shift
+
+a << b = a * 2^b
+a >> b = floor(a / 2^b) 
+
+ex.
+5 << 2 = 5 * 2^2 = 20
+5 >> 2 = 1
+
+
+Bitwise and, or, xor, not
+5 & 3
+
+101
+011
+001
+
+5 & 3 = 001 = 1
+
+5 | 3
+
+101
+011
+111
+
+5 | 3 = 111 = 7
+
+^, ~
+
+Bitmasks
+
+n & (1 << i) // check if ith bit of n is 1
+
+
